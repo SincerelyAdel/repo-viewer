@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_highlight/flutter_highlight.dart';
-import 'package:flutter_highlight/themes/github-dark.dart';
+import 'package:flutter_highlight/themes/atom-one-dark.dart';
 import '../models/repo_item.dart';
 import '../services/github_service.dart';
 import '../services/claude_service.dart';
@@ -198,7 +198,7 @@ class _FileViewerScreenState extends State<FileViewerScreen> {
           child: HighlightView(
             _content ?? '',
             language: lang,
-            theme: githubDarkTheme,
+            theme: atomOneDarkTheme,
             padding: const EdgeInsets.all(16),
             textStyle:
                 const TextStyle(fontFamily: 'monospace', fontSize: 14, height: 1.5),

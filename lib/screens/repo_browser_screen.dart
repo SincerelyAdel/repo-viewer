@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:dio/dio.dart';
 import '../models/repo_item.dart';
 import '../services/github_service.dart';
 import '../services/download_service.dart';
